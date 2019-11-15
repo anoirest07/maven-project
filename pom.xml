@@ -19,13 +19,13 @@
 		<repository>
 			<id>nexus-release</id>
 			<name>nexus-release</name>
-			<url>http://localhost:8081/repository/nexus-release/</url>
+			<url>http://192.168.1.23:8081/repository/nexus-release/</url>
 			<layout>default</layout>
 		</repository>
     	     <snapshotRepository>
       		<id>nexus-snapshot</id>
                 <name>nexus-snapshot</name>
-      		<url>http://localhost:8081/repository/nexus-snapshot/</url>
+      		<url>http://192.168.1.23:8081/repository/nexus-snapshot/</url>
             </snapshotRepository>
 
   	</distributionManagement>
